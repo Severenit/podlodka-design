@@ -1,0 +1,26 @@
+:root {
+  --font-family-typography-4: Trebuchet MS;
+  --font-family-typography-3: Trebuchet MS;
+  --font-family-typography-2: Trebuchet MS;
+  --font-family-typography-1: Trebuchet MS;
+  --size-lineheight-button-small: 24px;
+  --size-lineheight-button-medium: 24px;
+  --size-lineheight-button-large: 24px;
+  --size-lineheight-button-xlarge: 24px;
+  --size-lineheight-typography-4: 18px;
+  --size-lineheight-typography-3: 24px;
+  --size-lineheight-typography-2: 24px;
+  --size-lineheight-typography-1: 24px;
+  --size-font-button-small: 16px;
+  --size-font-button-medium: 16px;
+  --size-font-button-large: 16px;
+  --size-font-button-xlarge: 18px;
+  --size-font-typography-4: 14px;
+  --size-font-typography-3: 16px;
+  --size-font-typography-2: 18px;
+  --size-font-typography-1: 20px;
+  --font-family-default: var(--font-family-typography-1);
+  --font-family-button: var(--font-family-typography-1);
+  --size-lineheight-default: var(--size-lineheight-typography-4);
+  --size-font-default: var(--size-font-typography-4);
+}

@@ -1,0 +1,99 @@
+.root {
+    font-family: var(--font-family-button);
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--color-white);
+    background: none;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.full {
+    width: 100%;
+}
+
+.large {
+    height: 56px;
+    border-radius: 16px;
+    font-size: var(--size-font-button-large);
+    line-height: var(--size-lineheight-button-large);
+    padding: 0 16px;
+}
+
+.medium {
+    height: 40px;
+    border-radius: 8px;
+    font-size: var(--size-font-button-medium);
+    line-height: var(--size-lineheight-button-medium);
+    padding: 0 16px;
+}
+
+/* BRAND */
+.brand.primary {
+    background-color: var(--color-tv-blue-500);
+    border-color: var(--color-tv-blue-500);
+}
+
+.brand.primary:hover {
+    background-color: var(--color-tv-blue-600);
+    border-color: var(--color-tv-blue-600);
+}
+
+.brand.primary:active {
+    background-color: var(--color-tv-blue-700);
+    border-color: var(--color-tv-blue-700);
+}
+
+.brand.secondary {
+    border-color: var(--color-tv-blue-500);
+    color: var(--color-tv-blue-500);
+}
+
+.brand.secondary:hover {
+    background-color: var(--color-tv-blue-600);
+    border-color: var(--color-tv-blue-600);
+    color: var(--color-white);
+}
+
+.brand.secondary:active {
+    background-color: var(--color-tv-blue-700);
+    border-color: var(--color-tv-blue-700);
+    color: var(--color-white);
+}
+
+/* GRAY */
+
+.gray.primary {
+    background-color: var(--color-cold-gray-100);
+    border-color: var(--color-cold-gray-100);
+    color: var(--color-black);
+}
+
+.gray.primary:hover {
+    background-color: var(--color-cold-gray-150);
+    border-color: var(--color-cold-gray-150);
+    color: var(--color-black);
+}
+
+.gray.primary:active {
+    background-color: var(--color-tv-blue-50);
+    border-color: var(--color-tv-blue-50);
+    color: var(--color-black);
+}
+
+.gray.secondary {
+    border-color: var(--color-cold-gray-100);
+    color: var(--color-black);
+}
+
+.gray.secondary:hover {
+    background-color: var(--color-cold-gray-100);
+    border-color: var(--color-cold-gray-100);
+    color: var(--color-black);
+}
+
+.gray.secondary:active {
+    background-color: var(--color-cold-gray-150);
+    border-color: var(--color-cold-gray-150);
+    color: var(--color-black);
+}

@@ -1,0 +1,25 @@
+.root {
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--color-cold-gray-200);
+    background: none;
+    height: 34px;
+    border-radius: 4px;
+    outline: none;
+    padding: 0 8px;
+    color: var(--color-cold-gray-900);
+    font-family: var(--font-family-platform-regular);
+    line-height: var(--size-lineheight-platform-regular);
+    font-size: var(--size-font-platform-regular);
+    width: 100%;
+}
+
+.root:hover {
+    border-color: var(--color-cold-gray-350);
+}
+
+.root:focus {
+    border-color: var(--color-tv-blue-500);
+    border-width: 2px;
+    padding: 0 7px;
+}

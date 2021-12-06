@@ -1,0 +1,38 @@
+.root {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.grid {
+    width: 100%;
+    display: grid;
+    justify-items: stretch;
+    column-gap: 0;
+    row-gap: 0;
+}
+
+.m0 {
+    margin-bottom: 0;
+}
+
+.m100 {
+    margin-bottom: var(--size-spacers-100);
+}
+
+
+.m200 {
+    margin-bottom: var(--size-spacers-200);
+}
+
+
+.m300 {
+    margin-bottom: var(--size-spacers-300);
+}
+
+
+.m400 {
+    margin-bottom: var(--size-spacers-400);
+}

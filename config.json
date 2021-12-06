@@ -1,0 +1,55 @@
+{
+  "source": [
+    "token.json"
+  ],
+  "platforms": {
+    "css": {
+      "options": {
+        "showFileHeader": false,
+        "outputReferences": true
+      },
+      "transformGroup": "css",
+      "buildPath": "src/variables/",
+      "transforms": [
+        "attribute/cti",
+        "name/cti/kebab",
+        "time/seconds",
+        "content/icon",
+        "size/px",
+        "color/css"
+      ],
+      "files": [
+        {
+          "destination": "_colors.css",
+          "format": "css/variables",
+          "filter": {
+            "attributes": {
+              "category": "color"
+            }
+          }
+        },
+        {
+          "destination": "_typography.css",
+          "format": "css/variables",
+          "filter": {
+            "type": "typography"
+          }
+        },
+        {
+          "destination": "_effect.css",
+          "format": "css/variables",
+          "filter": {
+            "type": "effect"
+          }
+        },
+        {
+          "destination": "_spacers.css",
+          "format": "css/variables",
+          "filter": {
+            "type": "spacers"
+          }
+        }
+      ]
+    }
+  }
+}

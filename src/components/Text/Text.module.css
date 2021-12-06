@@ -1,0 +1,29 @@
+.root {
+    margin: 0;
+    padding: 0;
+    color: inherit;
+}
+
+.typography-1 {
+    font-family: var(--font-family-typography-1);
+    font-size: var(--size-font-typography-1);
+    line-height: var(--size-lineheight-typography-1);
+}
+
+.typography-2 {
+    font-family: var(--font-family-typography-2);
+    font-size: var(--size-font-typography-2);
+    line-height: var(--size-lineheight-typography-2);
+}
+
+.typography-3 {
+    font-family: var(--font-family-typography-3);
+    font-size: var(--size-font-typography-3);
+    line-height: var(--size-lineheight-typography-3);
+}
+
+.typography-4 {
+    font-family: var(--font-family-typography-4);
+    font-size: var(--size-font-typography-4);
+    line-height: var(--size-lineheight-typography-4);
+}
